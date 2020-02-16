@@ -1,0 +1,21 @@
+<meta property="og:url" content="band.us">
+<meta property="og:title" content="밴드-모임이 쉬워진다 ">
+<meta property="og:description" content="밴드는 그룹 멤버와 함께 하는 공간입니다. 동호회, 스터디, 주제별 모임을 밴드로 시작하세요.">
+<meta property="og:image" content="https://ssl.pstatic.net/cmstatic/webclient/icon/20181024195101/bandlink_200x200.png">
+<!doctype html>
+<html>
+  <title>아르하를 위한 페이지</title>
+<meta charset="utf-8">
+<input id="night_day" type="button" style="WIDTH: 600pt; HEIGHT: 600pt; FONT-SIZE:100px" value="아르하의 미래" onclick="
+    var target = document.querySelector('body');
+    if(this.value === '아르하의 미래'){
+      target.style.backgroundColor = 'black';
+      target.style.color = 'white';
+      this.value = '아르하의 과거';
+    } else {
+      target.style.backgroundColor = 'white';
+      target.style.color = 'black';
+      this.value = '아르하의 미래';
+    }
+">
+
